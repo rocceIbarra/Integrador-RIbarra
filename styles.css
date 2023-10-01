@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+/* alineacion con flexbox */
+.contenedor{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*.navbar{
+    width: 100%;
+    display:grid;
+    position:fixed;
+}*/
+
+/*.navbar__btn{
+    align-self: flex-end;
+    margin-top:40%;
+}*/
+
+/* agregamos estilos */
+
+/* header 
+.contenedor{
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
+    url(img/fondo2.jpg) no-repeat center center fixed;
+    background-size:cover;
+}*/
+
+/* imagen logo */
+.logo img{
+    height: 65px;
+    width: auto;
+    border-radius: 30%;
+}
+/* .navbar */
+.navbar{
+    background-color: #9FA3A6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 10px 10%;
+    position:fixed;
+
+}
+
+.navbar__principal ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar__principal ul li a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+   
+/* titulo/boton */
+.navbar__btn{
+    /* border: 1px solid red; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 200px;
+    margin-top: 40%;
+}   
+.navbar__btn h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #eceff1;
+
+}
+.navbar__btn button{
+    font-weight: 400;
+    color: #ffbc0e;
+    padding: 15px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
