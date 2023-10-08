@@ -8,7 +8,7 @@
     font-size: 20px;
 }
 
-/* alineacion con flexbox */
+/* alineacion con flexbox 
 .contenedor{
     height: 100vh;
     display: flex;
@@ -16,25 +16,25 @@
     justify-content: space-between;
 }
 
-/*.navbar{
+.navbar{
     width: 100%;
     display:grid;
     position:fixed;
-}*/
+}
 
-/*.navbar__btn{
+.navbar__btn{
     align-self: flex-end;
     margin-top:40%;
-}*/
+}
 
-/* agregamos estilos */
+/* agregamos estilos
 
-/* header 
+/* header
 .contenedor{
     background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
     url(img/fondo2.jpg) no-repeat center center fixed;
     background-size:cover;
-}*/
+}
 
 /* imagen logo */
 .logo img{
